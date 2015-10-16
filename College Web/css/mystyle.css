@@ -1,0 +1,45 @@
+ .header {
+/*    background-color: rgba(255, 255, 255, 0);
+    top:100px;*/
+    visibility: hidden;
+}
+
+.header.fixed, .header.open {
+    background-color: #6389BF;
+    /*top:0;*/
+    visibility: visible; 
+}
+.menunav.fixed {
+    background-color: #6389BF;
+    top:50px;
+    visibility: visible;
+}
+
+#headerimage{
+	width:100%;
+}
+
+.content-heading, .page-alt .content-heading {
+    background-color: #fafafa;
+    padding-top: 0;
+ }
+
+.menunav {
+    background-color: #6389BF;
+    top:200px;
+    visibility: visible;
+}
+
+.contentcontainer {
+    max-width: 1200px;
+}
+
+div#bar {
+    background-color:#6389BF;
+
+}
+
+a.header-logo:hover {
+    background-color: white;
+    color: blue;
+}
